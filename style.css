@@ -130,6 +130,23 @@ main{
   font-size: 1.4rem;
   color: #e94b3cff;
 }
+.perfil .palabras .titulo p{
+  margin-top: 120px;
+  margin-left: 500px;
+  font-size: 1.4rem;
+  color: white;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.perfil .palabras .titulo h6{
+  margin-left: 800px;
+  font-size: 1.4rem;
+  color: white;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 400;
+  font-style: italic;
+}
 .perfil .palabras .spinner{
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -158,7 +175,7 @@ main{
 }
 .info{
   width: 100vw;
-  height: 70%;
+  height: 50%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -167,8 +184,7 @@ main{
 }
 .info .carta2{
   width: 20%;
-  height: 30%;
-  overflow-y: hidden;
+  overflow: hidden;
   background-color: #2d2926ff;
   border-radius: 2.5px;
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
@@ -178,7 +194,6 @@ main{
   height: 100%;
 }
 .info .carta2 h3,.info .carta2 h5{
-  visibility: hidden;
   color: #f1f1f1;
 }
 .info .carta2 h3{
@@ -191,7 +206,6 @@ main{
 }
 .info .carta4{
   width: 20%;
-  height: 30%;
   overflow-y: hidden;
   background-color: #2d2926ff;
   border-radius: 2.5px;
@@ -201,13 +215,41 @@ main{
   width: 100%;
   height: 100%;
 }
-
-.info .cartas{
+.info .carta4 h5{
+  color: #f1f1f1;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.info .carta1{
   width: 20%;
-  height: 70%;
+  overflow-y: hidden;
   background-color: #e94b3cff;
   border-radius: 2.5px;
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.info .carta1 img{
+  width: 100%;
+  height: 100%;
+}
+.info .carta1 h5{
+  color: #f1f1f1;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.info .carta3{
+  width: 20%;
+  background-color: #e94b3cff;
+  border-radius: 2.5px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.info .carta3 img{
+  width: 100%;
+  height: 100%;
+}
+.info .carta3 h5{
+  color: #f1f1f1;
+  font-size: 1.3rem;
+  text-align: center;
 }
 footer{
   height: 15vh;
